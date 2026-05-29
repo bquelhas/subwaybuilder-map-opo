@@ -1,0 +1,37 @@
+{
+  "version": "0.1.0-beta",
+  "released_at": "2026-05-29T16:00:00Z",
+  "city_code": "OPO",
+  "name": "Porto (AMP)",
+  "files": {
+    "config.json": {
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.0-beta/config.json",
+      "sha256": "6670797eb9bf26c42753609bfcf010722ccf8c2362248e094b11d89b3c6e0320"
+    },
+    "OPO.pmtiles": {
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.0-beta/OPO.pmtiles",
+      "sha256": "ad7cc93bfd80d0bb9bcb0c9ef0c0d84278369d9eab024db9dcef790a2e8afa36"
+    },
+    "demand_data.json.gz": {
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.0-beta/demand_data.json.gz",
+      "sha256": "b460416b315b02d27d763261047ad751d4df6c57497715dd9b7d0424ec34e8a0"
+    },
+    "roads.geojson.gz": {
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.0-beta/roads.geojson.gz",
+      "sha256": "af6dd439938dd6a7bb4a206b7d24654d0309a73ac6874cf17328c71c4ae85cb9"
+    },
+    "buildings_index.json.gz": {
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.0-beta/buildings_index.json.gz",
+      "sha256": "bdcc0ab652c45fe32601b6dc741834b5cd2734c952717e82f18e4545d5043b39"
+    },
+    "runways_taxiways.geojson.gz": {
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.0-beta/runways_taxiways.geojson.gz",
+      "sha256": "5f86115806ad8ed5a4b61226b36eafdf2786c9df77a6f7f0eef16dc51e6be5ed"
+    },
+    "ocean_depth_index.json.gz": {
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.0-beta/ocean_depth_index.json.gz",
+      "sha256": "5cb51263642783d998aaa49baec32ec74157aa2d91716b0e36205cdfcf4874de"
+    }
+  },
+  "changelog": "Lancamento beta. Cobre os 17 municipios da AMP com dados INE BGRI21 + OSM. Drive times realistas (20/30/60 km/h por distancia +20%). Captive boost para zonas urbanas (Porto x1.8, Gaia x1.6, Matosinhos x1.35). 59.992 pops O/D, 1.20M pessoas simuladas, 70.6% cobertura. 57 pontos manuais + 30+ POIs turisticos sinteticos. Norte de PT a baixa zoom para contexto."
+}
