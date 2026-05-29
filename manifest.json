@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "opo-amp",
+  "name": "Porto (AMP)",
+  "author": "Bruno",
+  "github_id": null,
+  "description": "Area Metropolitana do Porto — os 17 municípios do AMP com 1.7M habitantes, ~1.12M empregos modelados e 1.20M passageiros simulados (70.6% cobertura) com captive boost para zonas urbanas. Inclui:\n\n• 56 pontos de procura manuais cobrindo Porto, Gaia, Matosinhos, Maia, V. Conde, Póvoa, S. Tirso, Trofa, Paredes, Espinho, SMF, SJM, OAZ, Arouca, Vale Cambra, Gondomar, Valongo.\n• Polos especiais: Aeroporto SAC (9000), Leixões porto (5000) e cruzeiros (600), Estádio do Dragão e do Bessa, Hospitais (S. João, Pedro Hispano, Sto. António), Universidades (FEUP, ISEP, FLUP, UCP), Shoppings (NorteShopping, ArrábidaShopping, GaiaShopping, MarShopping), Corporates (Sonae HQ, Continental Lousado, EXPONOR), Casinos (Póvoa, Espinho).\n• 30+ POIs turísticos sintéticos com labels: Torre dos Clérigos, Livraria Lello, Café Majestic, Mercado do Bolhão, Palácio da Bolsa, Sé do Porto, Casa da Música, Pavilhão Rosa Mota, Coliseu, Ribeira, Foz, Aliados, Boavista, Cedofeita, Bonfim, Paranhos, Caves do Vinho do Porto, Mosteiro da Serra do Pilar, e mais.\n• Norte de Portugal a baixa zoom (Braga, Aveiro, Viana do Castelo, Bragança, Chaves...) para que a geografia não acabe abruptamente.\n• Drive-times realistas: 19 km/h médio em distâncias urbanas (vs 45 km/h irrealista), forçando o metro a ser competitivo onde realmente é.\n• Cap de 5000 empregos por ponto OSM para evitar concentrações artificiais.\n\nData quality: high — baseado em INE BGRI21 (subsecções estatísticas) + OSM + curadoria manual.",
+  "tags": [
+    "europe",
+    "portugal",
+    "airports",
+    "ports",
+    "universities",
+    "stadiums",
+    "tourism",
+    "hospitals"
+  ],
+  "gallery": [
+    "gallery/screenshot1.jpg",
+    "gallery/screenshot2.jpg"
+  ],
+  "source": "https://github.com/bquelhas/subwaybuilder-map-opo",
+  "update": {
+    "type": "custom",
+    "url": "https://raw.githubusercontent.com/bquelhas/subwaybuilder-map-opo/main/OPO.json"
+  },
+  "city_code": "OPO",
+  "country": "PT",
+  "population": 1700000,
+  "residents_total": 1736228,
+  "points_count": 24817,
+  "population_count": 59992,
+  "data_source": "OSM + INE BGRI21",
+  "source_quality": "high-quality",
+  "level_of_detail": "high-detail",
+  "location": "europe",
+  "special_demand": [
+    "airports",
+    "ports",
+    "stadiums",
+    "universities",
+    "tourism"
+  ],
+  "initial_view_state": {
+    "latitude": 41.1496,
+    "longitude": -8.611,
+    "zoom": 11,
+    "bearing": 0
+  },
+  "file_sizes": {
+    "OPO.pmtiles": 41.93,
+    "buildings_index.json.gz": 15.24,
+    "config.json": 0.001,
+    "demand_data.json.gz": 1.58,
+    "ocean_depth_index.json.gz": 0.0001,
+    "roads.geojson.gz": 5.14,
+    "runways_taxiways.geojson.gz": 0.10
+  },
+  "is_test": false
+}
+

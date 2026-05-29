@@ -1,0 +1,9 @@
+# Binarios grandes vao na release, nao no repo
+*.pmtiles
+*.gz
+buildings_index.json
+*.metro
+
+# IDE
+.vscode/
+.idea/

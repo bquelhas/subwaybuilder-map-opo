@@ -1,0 +1,4 @@
+﻿Screenshot do mapa carregado in-game (.jpg/.png, ideal 1920x1080).
+Substitui este placeholder por uma captura tirada com PrintScreen no jogo:
+  - screenshot1: vista geral do AMP a zoom 11
+  - screenshot2: zoom no Porto centro a zoom 13-14, mostrando POIs turisticos

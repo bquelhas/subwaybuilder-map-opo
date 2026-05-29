@@ -1,0 +1,38 @@
+ï»¿{
+  "version": "0.1.0",
+  "released_at": "2026-05-28T00:00:00Z",
+  "city_code": "OPO",
+  "name": "Porto (AMP)",
+  "files": {
+    "config.json": {
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.0/config.json",
+      "sha256": "<fill>"
+    },
+    "OPO.pmtiles": {
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.0/OPO.pmtiles",
+      "sha256": "<fill>"
+    },
+    "demand_data.json.gz": {
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.0/demand_data.json.gz",
+      "sha256": "<fill>"
+    },
+    "roads.geojson.gz": {
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.0/roads.geojson.gz",
+      "sha256": "<fill>"
+    },
+    "buildings_index.json.gz": {
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.0/buildings_index.json.gz",
+      "sha256": "<fill>"
+    },
+    "runways_taxiways.geojson.gz": {
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.0/runways_taxiways.geojson.gz",
+      "sha256": "<fill>"
+    },
+    "ocean_depth_index.json.gz": {
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.0/ocean_depth_index.json.gz",
+      "sha256": "<fill>"
+    }
+  },
+  "changelog": "LanÃƒÂ§amento inicial. Cobre os 17 municÃƒÂ­pios da AMP com dados INE BGRI21 + OSM. Drive times realistas, captive boost para zonas urbanas. 56 pontos manuais + 30+ POIs turÃƒÂ­sticos sintÃƒÂ©ticos."
+}
+
