@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0-beta.1",
-  "released_at": "2026-05-29T16:46:09Z",
+  "version": "0.1.0-beta.2",
+  "released_at": "2026-05-29T20:17:01Z",
   "city_code": "OPO",
   "name": "Porto (AMP)",
   "files": {
@@ -14,7 +14,7 @@
     },
     "demand_data.json.gz": {
       "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.0-beta/demand_data.json.gz",
-      "sha256": "b460416b315b02d27d763261047ad751d4df6c57497715dd9b7d0424ec34e8a0"
+      "sha256": "b515bcbd51f62e8926f88518a8921fcf2388eb96060da89dc709cf04755e3cdc"
     },
     "roads.geojson.gz": {
       "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.0-beta/roads.geojson.gz",
@@ -33,5 +33,5 @@
       "sha256": "5cb51263642783d998aaa49baec32ec74157aa2d91716b0e36205cdfcf4874de"
     }
   },
-  "changelog": "Beta.1: SYNTH_POIS sao agora visiveis a low-zoom (min_zoom=9-13). Inclui Torre dos Clerigos, Livraria Lello, Cafe Majestic, Bolhao, Bolsa, Se, Casa da Musica, Pav. Rosa Mota, Estadios Dragao/Bessa, Mosteiro Serra Pilar, Caves do Vinho, Foz, Boavista, Aliados, Ribeira, Cedofeita, Bonfim, Paranhos, Casinos Povoa+Espinho, e outros."
+  "changelog": "Beta.2: Fix do validador do registry - points.residents agora bate certo com pops.size totals (delta=0). Inclui correcoes anteriores: SYNTH_POIS com min_zoom (visibilidade low-zoom), tuning Gaia 1.6x, S.Bento 3500, Dragao 2500, Aliados 2000."
 }
