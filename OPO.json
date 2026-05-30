@@ -1,37 +1,37 @@
 {
-  "version": "0.1.1",
-  "released_at": "2026-05-30T03:25:31Z",
+  "version": "0.2.0",
+  "released_at": "2026-05-30T09:32:54Z",
   "city_code": "OPO",
   "name": "Porto (AMP)",
   "files": {
     "config.json": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.1/config.json",
-      "sha256": "a073e10260a3d2e2d7166d1534ad28c22d4235393092bb72116ca352d99204a1"
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.2.0/config.json",
+      "sha256": "5b04e5bcebb39b39de62672d32d5e46ca8a5122ba6e869e5e65f04ee79098346"
     },
     "OPO.pmtiles": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.1/OPO.pmtiles",
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.2.0/OPO.pmtiles",
       "sha256": "1f18e3cdf70753e76d5a3b30c9f37c85707d0157a54a483e0c282b5aa5e76127"
     },
     "demand_data.json.gz": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.1/demand_data.json.gz",
-      "sha256": "b515bcbd51f62e8926f88518a8921fcf2388eb96060da89dc709cf04755e3cdc"
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.2.0/demand_data.json.gz",
+      "sha256": "c6e43f911d6326b8f104e1fa51ee98097520027a9268e0e06d76335ad6ee8385"
     },
     "roads.geojson.gz": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.1/roads.geojson.gz",
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.2.0/roads.geojson.gz",
       "sha256": "af6dd439938dd6a7bb4a206b7d24654d0309a73ac6874cf17328c71c4ae85cb9"
     },
     "buildings_index.json.gz": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.1/buildings_index.json.gz",
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.2.0/buildings_index.json.gz",
       "sha256": "bdcc0ab652c45fe32601b6dc741834b5cd2734c952717e82f18e4545d5043b39"
     },
     "runways_taxiways.geojson.gz": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.1/runways_taxiways.geojson.gz",
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.2.0/runways_taxiways.geojson.gz",
       "sha256": "5f86115806ad8ed5a4b61226b36eafdf2786c9df77a6f7f0eef16dc51e6be5ed"
     },
     "ocean_depth_index.json.gz": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.1.1/ocean_depth_index.json.gz",
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.2.0/ocean_depth_index.json.gz",
       "sha256": "5cb51263642783d998aaa49baec32ec74157aa2d91716b0e36205cdfcf4874de"
     }
   },
-  "changelog": "v0.1.1: estrutura plana do zip + config.json.version sync com a tag. Inclui correcoes anteriores: fix validador residents=pops.size, SYNTH_POIS com min_zoom, captive Gaia 1.6x, S.Bento 3500, Dragao 2500, Aliados 2000."
+  "changelog": "v0.2.0: modelo de procura com COS2018 (DGT, 25.343 poligonos) + PDM Porto 2021 (CMP, 717 poligonos). 30.957 locais de emprego (vs 6.895). Drive-times density-aware (carros 30% mais lentos no centro Porto). Long-haul mantem ~50 km/h efectivo. Validator fix integrado no script. 1.20M pessoas, 69.1% cobertura."
 }
