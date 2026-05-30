@@ -50,8 +50,10 @@ Dados derivados:
 - Conteúdo deste mapa em si: CC BY-SA 4.0
 - Dados OSM derivados: ODbL (a manter atribuição "© OpenStreetMap contributors")
 - Dados INE BGRI21: CC BY 4.0 (manter atribuição "© INE, Censos 2021")
+- Dados COS2018v2.0
 
 ## Changelog
 
-- **v0.1.0** (2026-05-28) — Lançamento inicial. AMP completa + Norte de PT a low-zoom + drive-times realistas + captive boost.
-
+- **v0.1.0** Lançamento inicial. AMP completa + Norte de PT a low-zoom + drive-times realistas + captive boost.
+- **v0.2.0** Dados de Procura de COS2018v2.0 adicionados para empregos.
+- **v0.2.1** Tentativa de fix para que funcione com o railyard.
