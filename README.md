@@ -55,14 +55,3 @@ Dados derivados:
 
 - **v0.1.0** (2026-05-28) — Lançamento inicial. AMP completa + Norte de PT a low-zoom + drive-times realistas + captive boost.
 
-## Submissão ao registry
-
-Para que apareça no Railyard de toda a gente:
-
-1. Fork de `Subway-Builder-Modded/registry`.
-2. Acrescenta `maps/opo-amp/manifest.json` (presente neste repo).
-3. Acrescenta `gallery/screenshot1.jpg` e `screenshot2.jpg` (tira no jogo).
-4. Acrescenta `basemap.svg` (auto-gerado pelo Railyard ou via tool externo).
-5. Acrescenta `grid.geojson` (pontos do demand_data em formato GeoJSON; podes gerar com `tools/grid_export.py` deste repo — TBD).
-6. Pull Request.
-
