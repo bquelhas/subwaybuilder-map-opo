@@ -5,33 +5,33 @@
   "name": "Porto (AMP)",
   "files": {
     "config.json": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.2.1/config.json",
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.3.0/config.json",
       "sha256": "1bf7a62f506e839c1c8c75d75cf545f03eb44a3ccca1f901be757887b30759a7"
     },
     "OPO.pmtiles": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.2.1/OPO.pmtiles",
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.3.0/OPO.pmtiles",
       "sha256": "35d072c0182e646288ccb03568e44cb73b9014f135bf662d7721a4c9b10b1c92"
     },
     "demand_data.json.gz": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.2.1/demand_data.json.gz",
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.3.0/demand_data.json.gz",
       "sha256": "522f966ea14e5a4a0f8b1bfefd690dec961598bfee7600979452c065d65cd9e5"
     },
     "roads.geojson.gz": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.2.1/roads.geojson.gz",
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.3.0/roads.geojson.gz",
       "sha256": "af6dd439938dd6a7bb4a206b7d24654d0309a73ac6874cf17328c71c4ae85cb9"
     },
-    "buildings_index.json.gz": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.2.1/buildings_index.json.gz",
-      "sha256": "bdcc0ab652c45fe32601b6dc741834b5cd2734c952717e82f18e4545d5043b39"
+    "buildings_index.bin": {
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.3.0/buildings_index.bin",
+      "sha256": "11143b4331a806aeacab37674ed06aee255b25c28f9a4ba62295a6bee12f52cc"
     },
     "runways_taxiways.geojson.gz": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.2.1/runways_taxiways.geojson.gz",
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.3.0/runways_taxiways.geojson.gz",
       "sha256": "5f86115806ad8ed5a4b61226b36eafdf2786c9df77a6f7f0eef16dc51e6be5ed"
     },
     "ocean_depth_index.json.gz": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.2.1/ocean_depth_index.json.gz",
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.3.0/ocean_depth_index.json.gz",
       "sha256": "5cb51263642783d998aaa49baec32ec74157aa2d91716b0e36205cdfcf4874de"
     }
   },
-  "changelog": "v0.2.1: POIs visiveis (movidos de pois para neighborhood_labels/suburb_labels). Demand limpo (450 outliers fora AMP removidos). NN max 2.74km. 1.19M pessoas."
+  "changelog": "v0.3.0 - Compatibilidade com versões >1.4.0 de Subway Builder"
 }
