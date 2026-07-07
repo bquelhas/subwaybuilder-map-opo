@@ -14,23 +14,23 @@
     },
     "demand_data.json.gz": {
       "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.4.0/demand_data.json.gz",
-      "sha256": "df46c84d6b1d1b946ade4f1c116d6a1066f5c6d3d727dcd90fae1206a3719098"
+      "sha256": "872db5ef19f6a7e279781497630d02d2b0d6abbdc2d5bceba99adba349c2d948"
     },
     "roads.geojson.gz": {
       "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.4.0/roads.geojson.gz",
-      "sha256": "7490b4e8b3590b7a13f506db71e1112639e7ab28471b197a24789f6c3c103dde"
+      "sha256": "642a124a6830dfbad9bee9d60474eab39226e55d4272431cf047aa4588dd980b"
     },
     "buildings_index.bin.gz": {
       "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.4.0/buildings_index.bin.gz",
-      "sha256": "11143b4331a806aeacab37674ed06aee255b25c28f9a4ba62295a6bee12f52cc"
+      "sha256": "0aa1f3feeeddd311fb88e7a7c5cfeb8b155abdf55a94cd3355b5be56c4ab7941"
     },
     "runways_taxiways.geojson.gz": {
       "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.4.0/runways_taxiways.geojson.gz",
-      "sha256": "12c78b679fe6c13f3b777eefeb614640408afb3e7f92951627daf7a7b66b34a6"
+      "sha256": "ea42975422ee65a3601cd4d9ab3a3e8a258bf0c98739b4cea6ca405d45938351"
     },
     "ocean_depth_index.json.gz": {
       "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.4.0/ocean_depth_index.json.gz",
-      "sha256": "1e39bdd8b8ce3102493dc8c69a762ec740ec96b908006ea7d9dd06e634e78e32"
+      "sha256": "d8dbf6eb18ff5890c2c97076e8751224c7cf5cd8b80286a97c905281b4a40c64"
     }
   },
   "changelog": "v.0.4.0 - 0 pontos de procura mortos no demand_data.json"
