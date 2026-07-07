@@ -1,37 +1,37 @@
 {
-  "version": "0.3.0",
-  "released_at": "2026-07-06T19:36:10Z",
+  "version": "0.4.0a",
+  "released_at": "2026-07-07T15:49:30Z",
   "city_code": "OPO",
   "name": "Porto (AMP)",
   "files": {
     "config.json": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.3.0/config.json",
-      "sha256": "b99f75b1f595e6d673d82ddd67d6ec7cf38747f0e1481e17af106d87d170eca4"
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.4.0a/config.json",
+      "sha256": "16504cf6eacd12537de5bcbc05519110173c6ddecbc8ab6427471304e1796106"
     },
     "OPO.pmtiles": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.3.0/OPO.pmtiles",
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.4.0a/OPO.pmtiles",
       "sha256": "35d072c0182e646288ccb03568e44cb73b9014f135bf662d7721a4c9b10b1c92"
     },
     "demand_data.json.gz": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.3.0/demand_data.json.gz",
-      "sha256": "b886323f3fdd7ad7642a38f9ed444aedb2f268373323014c96499866cf86a5ee"
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.4.0a/demand_data.json.gz",
+      "sha256": "1655728ff34c8319f389c512f2f58703484c6413ef9651f54be34284bdf01a53"
     },
     "roads.geojson.gz": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.3.0/roads.geojson.gz",
-      "sha256": "76419a5955f5454d17df50a74c80ad997271bbf365cfd33851c81647d6508519"
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.4.0a/roads.geojson.gz",
+      "sha256": "7490b4e8b3590b7a13f506db71e1112639e7ab28471b197a24789f6c3c103dde"
     },
     "buildings_index.bin.gz": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.3.0/buildings_index.bin.gz",
-      "sha256": "fed5372a1d2233f7095b151ce2220a09dbb3158d683064ee89bc6205c5de1845"
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.4.0a/buildings_index.bin.gz",
+      "sha256": "11143b4331a806aeacab37674ed06aee255b25c28f9a4ba62295a6bee12f52cc"
     },
     "runways_taxiways.geojson.gz": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.3.0/runways_taxiways.geojson.gz",
-      "sha256": "0b54ef213ca9a7e38657b370312b4253d0f5b1ecc598b9781dadc673692158c5"
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.4.0a/runways_taxiways.geojson.gz",
+      "sha256": "12c78b679fe6c13f3b777eefeb614640408afb3e7f92951627daf7a7b66b34a6"
     },
     "ocean_depth_index.json.gz": {
-      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.3.0/ocean_depth_index.json.gz",
-      "sha256": "31511af44f44259039f6dbfe4b0c59f586f708fc89483880f843a60291b28f32"
+      "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.4.0a/ocean_depth_index.json.gz",
+      "sha256": "1e39bdd8b8ce3102493dc8c69a762ec740ec96b908006ea7d9dd06e634e78e32"
     }
   },
-  "changelog": "v0.3.0 - Compatibilidade com Subway Builder >=1.4.0 (buildings_index formato binario SBBI). Todos os assets recomprimidos com gzip para downloads mais rapidos."
+  "changelog": "v0.4.0a - Correção manual da informação de procura e pontos de procura (500 linhas/48500)"
 }
