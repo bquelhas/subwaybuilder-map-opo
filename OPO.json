@@ -6,7 +6,7 @@
   "files": {
     "config.json": {
       "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.4.1/config.json",
-      "sha256": "16504cf6eacd12537de5bcbc05519110173c6ddecbc8ab6427471304e1796106"
+      "sha256": "071c0b7658ba37ab902c4834354a18a3da960c3bbd2ac8b8bec1a326f226d62a"
     },
     "OPO.pmtiles": {
       "url": "https://github.com/bquelhas/subwaybuilder-map-opo/releases/download/v0.4.1/OPO.pmtiles",
